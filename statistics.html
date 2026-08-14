@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#092d26"><title>Club Statistics | Barford Cricket Club</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/styles.css"></head>
+<body class="stats-page"><header class="site-header dark-header"><a class="brand inverse" href="index.html"><span class="brand-mark"><span></span></span><span><b>Barford</b><small>Cricket Club</small></span></a><button class="menu-button" aria-expanded="false"><span></span><span></span></button><nav class="desktop-nav"><a href="index.html#club">The club</a><a href="index.html#fixtures">Fixtures</a><a class="active" href="statistics.html">Statistics</a><a class="nav-cta" href="https://barford.play-cricket.com">Play with us</a></nav></header>
+<main>
+  <section class="stats-hero section-pad"><p class="eyebrow light"><span></span> The numbers behind the club</p><h1>Club statistics.</h1><p>From the latest season to more than four decades of Barford cricket. Search any player and compare every era.</p></section>
+  <section class="stat-highlights section-pad" id="highlights"></section>
+  <section class="stats-workspace section-pad">
+    <div class="stats-toolbar"><div class="tabs" role="tablist"><button class="active" data-view="season">Season</button><button data-view="batting">All-time batting</button><button data-view="bowling">All-time bowling</button><button data-view="records">Records</button></div><label class="search"><span>⌕</span><input id="player-search" type="search" placeholder="Search a player…" autocomplete="off"></label></div>
+    <div class="season-controls"><label>Season <select id="season-select"></select></label><div class="discipline"><button class="active" data-discipline="batting">Batting</button><button data-discipline="bowling">Bowling</button></div></div>
+    <div id="stats-content" aria-live="polite"></div>
+    <p class="table-hint">Swipe sideways to see every column</p>
+  </section>
+</main>
+<footer><a class="brand inverse" href="index.html"><span class="brand-mark"><span></span></span><span><b>Barford</b><small>Cricket Club</small></span></a><div><a href="admin.html">Admin</a><a href="https://barford.play-cricket.com">Play-Cricket</a></div><p>Club records from 1981 onwards.<br>© <span id="year"></span> Barford Cricket Club.</p></footer>
+<script src="assets/data.js"></script><script src="assets/app.js"></script><script src="assets/statistics.js"></script></body></html>
