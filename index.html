@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#092d26">
+  <meta name="description" content="Barford Cricket Club — friendly Sunday and midweek cricket in Warwickshire.">
+  <title>Barford Cricket Club | Friendly cricket in Warwickshire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Barford Cricket Club home">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span><b>Barford</b><small>Cricket Club</small></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#club">The club</a><a href="#fixtures">Fixtures</a><a href="statistics.html">Statistics</a><a href="#social">Social</a>
+      <a class="nav-cta" href="https://barford.play-cricket.com" target="_blank" rel="noreferrer">Play with us</a>
+    </nav>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#club">The club</a><a href="#fixtures">Fixtures</a><a href="statistics.html">Statistics</a><a href="#social">Social</a><a href="https://barford.play-cricket.com">Play with us</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true"><div class="ball"></div><div class="seam seam-a"></div><div class="seam seam-b"></div></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Warwickshire village cricket</p>
+        <h1>Cricket played<br><em>the Barford way.</em></h1>
+        <p class="hero-intro">Friendly fixtures, good company and a place for every standard of player — from late teens to the proudly experienced.</p>
+        <div class="hero-actions"><a class="button primary" href="https://barford.play-cricket.com">Come and play <span>↗</span></a><a class="button ghost" href="statistics.html">Explore club statistics</a></div>
+      </div>
+      <div class="hero-note"><b>Founded before 1900</b><span>Reformed in the late 1970s</span></div>
+    </section>
+
+    <section class="quick-links" aria-label="Popular links">
+      <a href="#fixtures"><span>01</span><b>Next fixtures</b><i>→</i></a>
+      <a href="statistics.html"><span>02</span><b>Stats & records</b><i>→</i></a>
+      <a href="https://barford.play-cricket.com"><span>03</span><b>Join the club</b><i>→</i></a>
+    </section>
+
+    <section id="club" class="story section-pad">
+      <div><p class="eyebrow dark"><span></span> More than the score</p><h2>A proper friendly<br>cricket club.</h2></div>
+      <div class="story-copy"><p>Barford Cricket Club has been part of village life for generations. Today we play friendly Sunday fixtures and midweek cricket on a grass wicket at Snitterfield.</p><p>There is no pressure to play every week. We welcome different ages and abilities, can provide kit when needed, and enjoy a full social calendar — including our annual tour.</p><a class="text-link" href="https://barford.play-cricket.com">Meet us on Play-Cricket <span>↗</span></a></div>
+    </section>
+
+    <section class="numbers section-pad">
+      <article><strong>30+</strong><span>active members</span></article><article><strong>40+</strong><span>years reformed</span></article><article><strong>100%</strong><span>friendly cricket</span></article>
+    </section>
+
+    <section id="fixtures" class="feature-section section-pad">
+      <div class="feature-head"><div><p class="eyebrow light"><span></span> On the field</p><h2>Fixtures & results</h2></div><p>Our current fixtures, team information and latest results are managed through the ECB Play-Cricket platform.</p></div>
+      <a class="feature-card" href="https://barford.play-cricket.com"><span class="feature-number">01</span><div><small>Live club information</small><h3>View Barford on<br>Play-Cricket</h3></div><i>↗</i></a>
+    </section>
+
+    <section class="stats-preview section-pad">
+      <div class="stats-copy"><p class="eyebrow dark"><span></span> The archive, reimagined</p><h2>Every run.<br>Every wicket.<br>Every season.</h2><p>Explore seasonal and all-time performance with fast search, sortable tables and mobile-friendly player cards.</p><a class="button dark" href="statistics.html">Open statistics <span>→</span></a></div>
+      <div class="leader-card">
+        <div class="leader-top"><span>All-time batting</span><small>Top run scorers</small></div>
+        <ol id="home-leaders"><li><b>Loading club records…</b></li></ol>
+        <a href="statistics.html">View the full table <span>→</span></a>
+      </div>
+    </section>
+
+    <section id="social" class="join section-pad"><p class="eyebrow light"><span></span> Your game, your pace</p><h2>Fancy a game?</h2><p>Whether you are returning to cricket or looking for a relaxed local club, come to nets or join us for a fixture.</p><a class="button white" href="https://barford.play-cricket.com">Get in touch <span>↗</span></a></section>
+  </main>
+
+  <footer><a class="brand inverse" href="#top"><span class="brand-mark"><span></span></span><span><b>Barford</b><small>Cricket Club</small></span></a><div><a href="statistics.html">Statistics</a><a href="https://barford.play-cricket.com">Play-Cricket</a><a href="https://www.facebook.com/BarfordCC">Facebook</a></div><p>Friendly cricket in Warwickshire.<br>© <span id="year"></span> Barford Cricket Club.</p></footer>
+  <script src="assets/data.js"></script><script src="assets/app.js"></script>
+</body>
+</html>
